@@ -1,3 +1,43 @@
+
+.app-wrapper {
+  justify-content: center;
+  display: grid;
+
+  grid-template-areas:
+  "header header"
+  "nav content";
+  grid-template-columns: 150px 80%;
+  grid-template-rows: 100px 80%;
+  grid-gap: 10px;
+}
+
+.header {
+  grid-area: header;
+}
+.header img {
+  width: 45px;
+}
+.sidebar {
+  grid-area: nav;
+}
+.content {
+  grid-area: content;
+}
+.content img {
+  width: 800px;
+}
+.avatar img {
+  width: 150px;
+}
+
+.grid__item {
+  background: linear-gradient(rgb(224,98,67), rgb(119,146,228));
+  border-radius: 6px;
+  padding: 5px
+}
+
+
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +76,4 @@
     transform: rotate(360deg);
   }
 }
+*/
