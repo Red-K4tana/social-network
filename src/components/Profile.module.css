@@ -1,0 +1,25 @@
+.content {
+    grid-area: c;
+    color: #0b2838;
+
+    background: linear-gradient(#4684a6, #2f586e);
+    border-radius: 6px;
+    padding: 5px;
+}
+.profBack img {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    object-position: center;
+    object-fit: cover;
+}
+.profAvatar img{
+    border-radius: 15px;
+    width: 150px;
+
+}
+
+
+

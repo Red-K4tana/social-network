@@ -1,0 +1,32 @@
+.nav {
+    grid-area: n;
+
+    background: linear-gradient(#4684a6, #2f586e);
+    border-radius: 6px;
+    padding: 5px;
+}
+.nav a {
+    padding: 3px;
+    text-decoration: none;
+    color: #0c2f42;
+
+}
+.item {
+    margin: 5px;
+    border: 0 solid;
+    border-radius: 5px;
+
+}
+.item:hover {
+    background-color: #265d7d;
+    transition: 0.1s;
+}
+.active {
+    color: #a3bac7;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: #06547d;
+}
+.active a {
+    color: #62a3b2;
+}
