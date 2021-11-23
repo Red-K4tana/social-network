@@ -13,7 +13,14 @@
   grid-gap: 10px;
 }
 
-
+.app-wrapper-content {
+  grid-area: c;
+  color: #0b2838;
+  background-color: #6cab86;
+  border-radius: 6px;
+  padding: 5px;
+  box-shadow: 3px 3px 3px #0b2838;
+}
 
 
 
